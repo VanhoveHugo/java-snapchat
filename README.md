@@ -22,7 +22,10 @@ java com/example/App.java
 
 ## Screenshots
 
-| ![Screenshot #1](.github/app.png) |
+| ![Screenshot of the app](.github/app.png) |
+|---------------------------------------------|
+
+| ![Screenshot of the data output](.github/output.png) |
 |---------------------------------------------|
 
 ## Getting Started
