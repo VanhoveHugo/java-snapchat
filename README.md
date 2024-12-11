@@ -4,14 +4,14 @@ A Snapchat fonctionality clone using Java, all data (audio, screenshots) are sto
 
 ## installation
 
-Go to the project directory
+Compile the app
 ```bash
-cd src/main/java
+mvn clean compile
 ```
 
 Run the app
 ```bash
-java com/example/App.java
+mvn exec:java -D exec.mainClass="com.example.App"
 ```
 
 ## Features
@@ -30,7 +30,7 @@ java com/example/App.java
 
 ## Getting Started
 
-This project is built using Java, and you'll need to set up a Java development environment to run and modify the project.
+This project is built using Java & Maven, and you'll need to set up a Java development environment to run and modify the project.
 
 A few resources to get you started if this is your first Java project:
 
@@ -42,4 +42,16 @@ To check if Java is already installed, you can run the following command in your
 
 ```bash
 java -version
+```
+
+You'll also need to install Maven to manage the project dependencies:
+
+- [Installing Maven on macOS](https://maven.apache.org/install.html)
+- [Installing Maven on Windows](https://maven.apache.org/install.html)
+- [Installing Maven on Linux](https://maven.apache.org/install.html)
+
+To check if Maven is already installed, you can run the following command in your terminal:
+
+```bash
+mvn -v
 ```
